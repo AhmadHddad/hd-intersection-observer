@@ -7,8 +7,10 @@
     "dist",
     "src"
   ],
+  "description": "An abstract layer that would make using intersection observer easier",
   "engines": {
-    "node": ">=10"
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
   },
   "scripts": {
     "start": "tsdx watch",
