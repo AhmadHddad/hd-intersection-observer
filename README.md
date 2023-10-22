@@ -2,7 +2,11 @@
 
 Is an abstract layer built on top of the IntersectionObserver Api, it would make it easier to use and more efficient to instantiate multiple observers.
 
-## How to use:
+## Installation
+
+`npm install hd-intersection-observer`
+
+## How to use
 
 ```
 // will start observing the element if its on the view port
