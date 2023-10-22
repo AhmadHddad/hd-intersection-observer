@@ -1,8 +1,7 @@
 /**
- * This code was copied from  
+ * This code was copied from
  * https://github.com/thebuilder/react-intersection-observer/blob/main/src/observe.ts
  */
-
 
 export type ObserverInstanceCallback = (
   inView: boolean,
@@ -119,6 +118,23 @@ function createObserver(options: IntersectionObserverInit) {
  * @param callback - Callback function to trigger when intersection status changes
  * @param options - Intersection Observer options
  * @param fallbackInView - Fallback inView value.
+ * 
+ * @example 
+ * will start observing the element if its on the view port
+ * `
+ * 
+const observer = observeFunc(
+document.body,
+(isInView, entry) => {
+// do something
+},
+// document or any HTML element of choice
+{ root: document }
+);
+
+// When called it will unobserve the element (for cleanup).
+observer();
+ * `
  * @return Function - Cleanup function that should be triggered to unregister the observer
  */
 export default function observe(
