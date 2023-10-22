@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -8,10 +8,6 @@
     "src"
   ],
   "description": "An abstract layer that would make using intersection observer easier",
-  "engines": {
-    "npm": ">=8.0.0",
-    "node": ">=16.0.0"
-  },
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
@@ -32,6 +28,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
+  "keywords": [
+    "observer",
+    "intersection",
+    "intersection observer",
+    "intersection-observer",
+    "hd",
+    "hd-utils",
+    "AhmadHddad",
+    "hd-intersection-observer"
+  ],
   "name": "hd-intersection-observer",
   "author": "AhmadHddad",
   "module": "dist/hd-intersection-observer.esm.js",
